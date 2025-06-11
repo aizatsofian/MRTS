@@ -1,0 +1,62 @@
+/* layout.css */
+
+/* Gaya asas untuk keseluruhan laman */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+  color: #333;
+  margin: 0;
+
+  /* Lapisan warna putih separa lutsinar untuk memastikan teks mudah dibaca */
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url('HJ.jpg'); /* Pastikan nama fail ini sama dengan fail gambar anda */
+  
+  background-size: cover; /* Memastikan imej meliputi keseluruhan skrin */
+  background-position: center center; /* Menengahkan imej */
+  background-repeat: no-repeat; /* Mengelakkan imej daripada berulang */
+  background-attachment: fixed; /* Menetapkan imej supaya tidak bergerak semasa skrol */
+}
+
+/* Tajuk utama: MEDICAL REPORT TRACING SYSTEM */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #37474f;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* Bekas untuk seksyen carian */
+.search-container {
+  background: #ffffff;
+  padding: 25px 35px;
+  border-radius: 8px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Sub-tajuk: Semak Status Laporan Perubatan */
+.search-container h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+/* Kaki halaman (Footer) */
+footer {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d32f2f;
+}

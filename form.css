@@ -1,0 +1,47 @@
+/* form.css */
+
+/* Kotak carian utama - kini hanya sebagai bekas flexbox */
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Jarak moden antara input dan butang */
+}
+
+/* Input teks untuk No I/C Pemohon */
+input[type="text"] {
+  width: 280px;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #d32f2f; /* Sempadan merah yang konsisten */
+  border-radius: 6px;
+  outline: none;
+  background-color: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #b71c1c; /* Merah lebih gelap semasa fokus */
+  box-shadow: 0 0 8px rgba(211, 47, 47, 0.4);
+}
+
+/* Butang carian - Reka bentuk diubah */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #fff; /* Latar belakang putih */
+  color: #d32f2f; /* Teks berwarna merah */
+  font-weight: bold;
+  border: 2px solid #d32f2f; /* Sempadan merah */
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+/* Kesan hover untuk butang */
+button:hover {
+  background-color: #d32f2f; /* Latar belakang menjadi merah */
+  color: #fff; /* Teks menjadi putih */
+  transform: translateY(-2px);
+}
